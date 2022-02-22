@@ -25,10 +25,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: docker build 
-        run: docker build . -t dsmp24bristol/git_dock:v0.1
+        run: docker build . -t dsmp24bristol/git_dock:v0.2
         
       - name: dp
-        run: docker push dsmp24bristol/git_dock:v0.1
+        run: docker push dsmp24bristol/git_dock:v0.2
         
     
         
